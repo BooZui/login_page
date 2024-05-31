@@ -21,6 +21,14 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "src/app/login/page.jsx",
+    "src/app/layout.jsx",
+    "src/path/GlobalContext.jsx"
+  ],
   "exclude": ["node_modules"]
 }
